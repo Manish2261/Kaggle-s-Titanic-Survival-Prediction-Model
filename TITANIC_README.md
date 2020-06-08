@@ -36,16 +36,41 @@ there conferred to our submission.
 
 Different variable with their significance explained below:
 
-Survival : ( 1 or  0)
+Survival : ( 1 or  0) int64
 It is an expected output from the test_set provided therein but our provided in the Training_set for the purpose of out=r model training.
 The value are int64 type with value 1 or 0 for Survuved or Not Survived.
 
-pclass:
+pclass: 'Categorical'
 It represents the socio economic class for the passengers which needs to be evalluated judiciously as they may dictate the prediction results for passengers survival. 
-They are int64 with values 1 - 1st class ticket
+They are int64 with values 1 - 1st class ticket, 2 - 2nd class ticket, 3 - 3rd class ticket
 
+sex: 'Categorical'
+It is a categorical feature which may be useful to determine the corelation between the survival rate between male and female.
+It is having values as 'Male' and 'Female'
 
+age: int64
+It is an int64 giving tha age value
 
+sibsp : int64
+It signifies the presence of any siblings on the wrecked ship and their relation with survival rate.
 
+parch: int64
+It signifies the presence of parents or children(off-springs) of the passengers traveling on the ship
+
+ticket :  int64
+It signifies the ticket number of passengers consisting of the null values which needs to be fixed therein.
+
+fare : int64
+It signifies the ticket price of the passengers
+
+cabin: int64
+It gives the cabin number of the embarked passengers on the ship
+
+embarked : 'Categorical'
+It is a categorical variable featuring the boarding point or location of the passenger.
+It is having values:
+C - Cherbourg
+Q - Queenstown
+S - Southampton
 
 
