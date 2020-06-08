@@ -27,6 +27,23 @@ these outcomes.
 
 Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived.
 
+#Goals of Particpating:
+
+We are demanded to submit the prediction result for the test data that we got in terms of 1 or 0 i.e(Survived or Not Survived) respectively therein  in the wrecking incident. These results of us are validated by the Ground truth results of the incident and the accuracy score are 
+there conferred to our submission.
+
+#Details regarding the datasets:
+
+Different variable with their significance explained below:
+
+Survival : ( 1 or  0)
+It is an expected output from the test_set provided therein but our provided in the Training_set for the purpose of out=r model training.
+The value are int64 type with value 1 or 0 for Survuved or Not Survived.
+
+pclass:
+It represents the socio economic class for the passengers which needs to be evalluated judiciously as they may dictate the prediction results for passengers survival. 
+They are int64 with values 1 - 1st class ticket
+
 
 
 
